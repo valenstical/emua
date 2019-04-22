@@ -1,0 +1,118 @@
+.hero {
+    background-color: #efefef;
+    background-image: url('../images/backgrounds/2.jpg');
+    background-size: cover;
+    background-position: 50% 0%;
+}
+
+.hero-inner {
+    max-width: 700px;
+    padding-top: 180px;
+    padding-bottom: 180px;
+}
+
+.hero h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 50px;
+    color: #5d5353;
+}
+
+.btn-brand {
+    display: inline-block;
+    background-color: #ff4c3b;
+    color: white;
+    padding: 10px 30px;
+    font-size: 18px;
+    border-radius: 30px;
+    transition: all 300ms;
+}
+
+.hero-inner .fa-shopping-bag {
+    margin-right: 10px;
+}
+
+.hero-catchy {
+    display: inline-block;
+    border-radius: 70px;
+    background-color: #273444;
+    color: white;
+    padding: 5px 20px 5px 5px;
+    font-size: 12px;
+}
+
+.hero-catchy span {
+    background-color: #ffab00;
+    border-radius: inherit;
+    display: inherit;
+    padding: 2px 10px;
+    margin-right: 13px;
+}
+
+.hero-inner p {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.btn-brand:hover {
+    background-color: #ec2f1e;
+    color: white;
+    text-decoration: none;
+    transform: translateY(-2px);
+}
+
+.category-item {
+    background-size: cover;
+    background-position: center top;
+    text-align: center;
+    padding: 80px 20px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    position: relative;
+    color: white;
+    overflow: hidden;
+}
+
+.overlay::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.overlay * {
+    position: relative;
+}
+
+.link-cover {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    display: none;
+}
+
+.category-item .link-cover {
+    top: 10px;
+    bottom: 10px;
+    right: 10px;
+    left: 10px;
+    border: 1px solid rgba(255,255,255,0.7);
+}
+
+.category-item span {
+    display: inline-block;
+    background-color: white;
+    color: #342e2e;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 5px 0px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}

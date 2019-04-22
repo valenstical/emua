@@ -1,0 +1,138 @@
+.product {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.product-image {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.product-name {
+    color: #777;
+    font-size: 14px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.product-slash-price {
+    text-decoration: line-through;
+    font-weight: normal;
+    color: #777575;
+    margin-left: 8px;
+    font-size: 12px;
+}
+
+.product-price {
+    color: #545454;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.product-ratings {
+    display: inline-block;
+    color: #ffa200;
+    font-size: 10px;
+}
+
+.product-ratings .fas {
+    margin-right: 0px;
+}
+
+.product-ratings-5 .fas {
+    color: #ffa200;
+}
+
+.product-ratings-4 .fas:last-child {
+    color: #bab8b8;
+}
+
+.product-ratings-3 .fas:last-child,
+.product-ratings-3 .fas:nth-child(4) {
+    color: #bab8b8;
+}
+
+.product-ratings-2 .fas:last-child,
+.product-ratings-2 .fas:nth-child(4),
+.product-ratings-2 .fas:nth-child(3) {
+    color: #bab8b8;
+}
+
+.product-ratings-1 .fas {
+    color: #bab8b8;
+}
+
+.product-ratings-1 .fas:first-child {
+    color: #ffa200;
+}
+
+.product-sale {
+    text-transform: uppercase;
+    transform: rotate(-90deg);
+    display: inline-block;
+    position: absolute;
+    right: -10px;
+    top: 30px;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.product-grp {
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    position: relative;
+    z-index: 4;
+}
+
+.product-tag-grp span {
+    display: none;
+    width: 40px;
+    height: 40px;
+    color: white;
+    border-radius: 100px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 12px;
+    font-size: 11px;
+}
+
+.product-tag-grp .product-discount {
+    background-color: #59ad46;
+    display: inline-block;
+}
+
+.product-tag-grp {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.product-tag-new {
+    background-color: #ff4c3b;
+    margin-right: -9px;
+}
+
+.product-no-stock .product-sale {
+    top: 40px;
+    right: -20px;
+}
+
+.product-no-stock .product-image {
+    opacity: 0.5;
+}
+
+.product-wishlist-icon {
+    position: absolute;
+    top: -35px;
+    right: 10px;
+    color: #9e9e9e;
+    cursor: pointer;
+    padding: 3px;
+    z-index: 5px;
+}
+
+.product-wishlist-icon:hover {
+    color: #ff4c3b;
+}
